@@ -1,0 +1,8 @@
+(tests
+    (names student)
+    (libraries fsm ounit2 testUtils))
+
+(env
+ (dev
+  (flags
+   (:standard -w -A))))
